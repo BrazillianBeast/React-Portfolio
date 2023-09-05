@@ -1,0 +1,13 @@
+.myAboutImage {
+    background-image: url('../../assets/about.webp');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 3px solid #2d2e32; */
+    /* border-radius: 60% 35% 30% 70%/ 60% 20% 70% 40%; */
+    border-radius: 1.7em;
+    height: 24rem;
+    position: relative;
+    transition: all 1s ease-in-out;
+    width: 24rem;
+}
