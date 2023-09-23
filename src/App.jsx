@@ -1,6 +1,7 @@
-import Header from './components/header/Header';
-import Hero from './components/hero/Hero';
-import About from './components/about/About'
+import Header from './components/headerComponent/Header';
+import Hero from './components/heroComponent/Hero';
+import About from './components/aboutComponent/About';
+import Projects from './components/projectsComponent/Projects';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 
@@ -11,6 +12,7 @@ function App() {
       <Header/>
       <Hero/>
       <About/>
+      <Projects/>
     </>
   )
 }
